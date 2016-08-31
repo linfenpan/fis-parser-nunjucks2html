@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+{% block header %}
+  This is the default content
+{% endblock %}
+
+<section class="left">
+  {% block left %}{% endblock %}
+</section>
+
+<section class="right">
+  {% block right %}
+    This is more content
+  {% endblock %}
+</section>
+</body>
+</html>
